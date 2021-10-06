@@ -31,10 +31,6 @@ public class Counter {
         return wordCount;
     }
 
-    private static Context getApplicationContext() {
-        return getApplicationContext();
-    }
-
     public static int getCharsCount(String str) {
         if (str == null || str.isEmpty()) {
             return 0;
